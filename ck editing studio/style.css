@@ -1,0 +1,111 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #0b0b0f;
+  color: white;
+  text-align: center;
+}
+
+header {
+  padding: 40px;
+  background: linear-gradient(120deg, black, red);
+}
+
+.logo {
+  width: 120px;
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 25px;
+  margin: 8px;
+  background: red;
+  color: white;
+  text-decoration: none;
+  border-radius: 30px;
+}
+
+.services {
+  padding: 40px;
+}
+
+.service-box {
+  display: inline-block;
+  width: 200px;
+  background: #15151f;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.order {
+  background: red;
+  padding: 40px;
+}
+
+.big {
+  background: black;
+  font-size: 18px;
+}
+
+footer {
+  padding: 15px;
+  background: #000;
+}
+.contact {
+  padding: 40px;
+  background: #111;
+}
+
+form {
+  max-width: 400px;
+  margin: auto;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 8px;
+  border: none;
+}
+
+button {
+  width: 100%;
+}
+.gallery-box img {
+  width: 200px;
+  margin: 10px;
+  border-radius: 10px;
+  transition: 0.4s;
+}
+
+.gallery-box img:hover {
+  transform: scale(1.1);
+}
+.service-box {
+  transition: 0.4s;
+}
+
+.service-box:hover {
+  background: red;
+  transform: translateY(-10px);
+}
+@keyframes fade {
+  from {opacity: 0; transform: translateY(30px);}
+  to {opacity: 1; transform: translateY(0);}
+}
+
+section {
+  animation: fade 1s ease;
+}
+.btn:hover {
+  background: black;
+  box-shadow: 0 0 15px red;
+}
+
+
